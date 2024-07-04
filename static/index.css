@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #247b02;
+    background-color: #1f6902;
     padding: 12px;
     /* justify-content: space-between;
     justify-content: center; */
@@ -157,7 +157,7 @@ footer p{
         
     }
 .nav-buttons .boton{
-    max-width: 100%;
+    width: 90%;
 }
     .nav-buttons button {
         margin: 5px 0;
@@ -183,8 +183,6 @@ footer p{
         text-align: center;
         width: 70%;
     }
-    
-    
     
     /* Íconos footer */
     .icons {
