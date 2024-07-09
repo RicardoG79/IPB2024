@@ -156,10 +156,12 @@ footer p{
     .nav-buttons {
         flex-direction: column;
         align-items: center;
+        padding: 5px; /*Esto da espacio entre los botones*/
         
     }
 .nav-buttons .boton{
     width: 90%;
+    
 }
     .nav-buttons button {
         margin: 5px 0;
