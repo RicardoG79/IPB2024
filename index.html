@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPB 2024</title>
     <link rel="stylesheet" href="./static/index.css">
+    <link rel="stylesheet" href="./static/aviso.css"
 </head>
 <body>
     <header>
@@ -27,17 +28,18 @@
             <button class="boton">PPI</button>
             <button class="boton">Cronograma anual</button>
         </nav>
+
         <section class="functions">
-            <a href="https://drive.google.com/drive/u/1/folders/1SVwoYlP1TET-B2y1PgQNVVDOVxfukcf4" target="_blank" class="function-card">
+            <a href="https://drive.google.com/drive/u/1/folders/1SVwoYlP1TET-B2y1PgQNVVDOVxfukcf4" target="_blank" class="function-card special-card" data-id="1">
                 <div class="icon">📁</div>
                 <h2>Material de Lectura</h2>
             </a>
-            <a href="#tramites-generales" class="function-card">
+            <a href="https://drive.google.com/drive/u/1/folders/1SVwoYlP1TET-B2y1PgQNVVDOVxfukcf4"  class="function-card" data-id="2" target="_blank" >
                 <div class="icon">📝</div>
                 <h2>Acreditación Formación Situada</h2>
                 
             </a>
-            <a href="#rendiciones-cuentas" class="function-card">
+            <a href="https://youtube.com/playlist?list=PLSzwPWODtAEYLunRvQUFAUYXZsx9xetHa&si=vfg9ZvFMGkcpc7on" target="_blank" class="function-card special-card">
                 <div class="icon">▶️</div>
                 <h2>Sección de videos</h2>
                 
@@ -47,6 +49,9 @@
                 <h2>Nuestro camino en imágenes</h2>
             </a>
 
+            <div id="notification" class="notification">
+                Ingresar con cuenta Institucional
+            </div>
         </section>
     </main>
     <footer>
@@ -63,5 +68,8 @@
         <p>Ciclo lectivo 2024 <br> 
             Instituto Privado Superior Pbro. Juan V. Brizuela</p>
     </footer>
+    <script src="./static/aviso.js">
+        
+    </script>
 </body>
 </html>
