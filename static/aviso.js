@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             event.preventDefault(); // Prevenir la acción de navegación inicial
 
             const notification = document.getElementById('notification');
-            notification.textContent = `Debe ingresar con su cuenta institucional`;
+            notification.textContent = `⚠️Debe ingresar con su cuenta institucional`;
             notification.className = "notification show";
 
             // Retrasar la navegación 2 segundos
