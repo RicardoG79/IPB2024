@@ -18,6 +18,12 @@
     -webkit-animation: fadein 0.5s, fadeout 0.5s 1.5s;
     animation: fadein 0.5s, fadeout 0.5s 1.5s;
 }
+.not{
+    color: #0c020e;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
 @-webkit-keyframes fadein {
     from {top: 0; opacity: 0;} 
     to {top: 30px; opacity: 1;}
