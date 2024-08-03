@@ -1,0 +1,21 @@
+.par{
+    margin: 12px;
+    padding: 10px;
+    border:solid 1px black;
+    background-color: antiquewhite;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imagen{
+    height: 200px;;
+    width: 200px;
+    display: block;
+    margin: 5px auto;
+}
+.home{
+    display: inline;
+    right: 12px;
+    position: fixed;
+    bottom: 8%;
+} 

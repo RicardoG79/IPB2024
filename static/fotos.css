@@ -1,0 +1,32 @@
+
+
+
+.home{
+    display: inline;
+    right: 12px;
+    position: fixed;
+    bottom: 8%;
+} 
+.fotos{
+    margin: 10px;    
+    background-image: url('./img/img1.jpeg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50vh;
+        background-position: center;
+           
+        animation-name: cambiar;
+        animation-duration: 8s;
+        animation-delay: 3s;
+        animation-iteration-count:infinite;
+    }
+    
+    @keyframes cambiar {
+        20%{background-image: url('./img/img2.jpeg');}
+        40%{background-image: url('./img/img5.jpg');}
+        60%{background-image: url('./img/img6.jpg');}
+        80%{background-image: url('./img/img7.jpg');}
+        100%{background-image: url('./img/img3H.jpg');}
+        
+    }
+}

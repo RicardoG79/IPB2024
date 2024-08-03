@@ -30,3 +30,11 @@ let footer1=`
         `
 //selecciono el footer y le paso la variable de footer1
 document.querySelector("footer").innerHTML=footer1;
+
+let home= `
+<section class="home">
+            <a href="./index.html">
+            <img src="./static/img/hogar II.png" alt="">
+
+`
+document.querySelector(".home").innerHTML=home;
