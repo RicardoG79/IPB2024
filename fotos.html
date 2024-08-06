@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,42 @@
     <link rel="stylesheet" href="./static/index.css">
     <link rel="stylesheet" href="./static/aviso.css">
     <link rel="stylesheet" href="./static/fotos.css">
+    <link rel="stylesheet" href="./static/css/bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-<!-- El contenido del header está en el código de js -->
+        <!-- El contenido del header está en el código de js -->
     </header>
     <main>
-        <div class="fotos">
-
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <img src="./static/img/img1.jpeg" alt="Imagen 1">
+                <img src="./static/img/img2.jpeg" alt="Imagen 2">
+                <img src="./static/img/img5.jpg" alt="Imagen 3">
+                <img src="./static/img/img4H.jpg" alt="Imagen 4">
+                
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
         </div>
-        </section>
-        <section class="home">
     
+        <section class="home">
+
         </section>
     </main>
     <footer>
-<!-- El contenido del footer está en el código de js -->
+        <!-- El contenido del footer está en el código de js -->
     </footer>
     <script src="./static/script_template.js"></script>
+    <script src="./slide-fotos.js"></script>
 </body>
+
 </html>
