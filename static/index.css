@@ -34,9 +34,9 @@ font-size: 12px;
 
 
 header .logo {
-   height: 40px; /* Ajusta el tamaño del logo según sea necesario */
-   display: inline-block;
-   vertical-align: middle;
+    height: 40px; /* Ajusta el tamaño del logo según sea necesario */
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav button {
@@ -53,6 +53,9 @@ nav button {
     padding: 20px;
     text-align: center;
     margin: 10px -12px -12px -12px;
+}
+.title-section h1:hover{
+    color: #ffa33a;
 }
 
 .nav-buttons {

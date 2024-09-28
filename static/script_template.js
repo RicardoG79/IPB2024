@@ -26,7 +26,8 @@ let footer1=`
             </div>
         </div>
         <p>Ciclo lectivo 2024 <br> 
-            Instituto Privado Superior Pbro. Juan V. Brizuela</p>
+            Instituto Privado Superior Pbro. Juan V. Brizuela <br> 📞 3544-420383 ▪️ 📧institutobrizuela@gmail.com</p>
+
         `
 //selecciono el footer y le paso la variable de footer1
 document.querySelector("footer").innerHTML=footer1;
