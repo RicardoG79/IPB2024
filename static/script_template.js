@@ -25,7 +25,7 @@ let footer1=`
                 </a>
             </div>
         </div>
-        <p>Ciclo lectivo 2024 <br> 
+        <p>Ciclo lectivo 2025 <br> 
             Instituto Privado Superior Pbro. Juan V. Brizuela <br> 📞 3544-420383 ▪️ 📧institutobrizuela@gmail.com</p>
 
         `
