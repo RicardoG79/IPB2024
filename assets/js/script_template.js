@@ -1,7 +1,7 @@
 //crear variable header
 let header1= `
 <nav>
-            <img src="./static/img/logo1.png" alt="Logo del Curso" class="logo">
+            <img src="../assets/img/logo1.png" alt="Logo del Curso" class="logo">
             <div class="infraestructura">
                 <h4>"A la luz del Evangelio, transformaremos la cultura."</h4>
             </div>
@@ -18,10 +18,10 @@ let footer1=`
 <div class="icons">
             <div class="floating-icon">
                 <a href="https://www.instagram.com/institutobrizuela/" target="_blank">
-                    <img src="../static/img/instagram-6338401__340.ico" alt="Instagram">
+                    <img src="../assets/img/instagram-6338401__340.ico" alt="Instagram">
                 </a>
                 <a href="https://app.tulegajo.com/login.htm" target="_blank">
-                    <img src="./static/img/tulegajo.ico" alt="Facebook">
+                    <img src="../assets/img/tulegajo.ico" alt="tulegajo.com">
                 </a>
             </div>
         </div>
@@ -34,8 +34,8 @@ document.querySelector("footer").innerHTML=footer1;
 
 let home= `
 <section class="home">
-            <a href="./index.html">
-            <img src="./static/img/hogar II.png" alt="">
+            <a href="../index.html">
+            <img src="../assets/img/hogar II.png" alt="">
 
 `
 document.querySelector(".home").innerHTML=home;
