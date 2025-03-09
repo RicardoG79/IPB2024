@@ -17,4 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+//Aviso de enlaces en construcción
+document.querySelectorAll('.enlace-construccion').forEach(enlace => {
+    enlace.addEventListener('click', function(e) {
+        e.preventDefault(); // Previene la navegación al enlace
+        alert('¡Enlace en construcción!\nGracias por tu paciencia, pronto estará disponible.');
+    });
+});
 
