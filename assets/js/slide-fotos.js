@@ -19,7 +19,7 @@ let currentSlide = 0;
         }
 
         // Cambiar la imagen cada 1 segundo
-        setInterval(nextSlide, 3000);
+        setInterval(nextSlide, 5000);
 
         // Permitir clic en puntos para cambiar la imagen
         dots.forEach((dot, index) => {

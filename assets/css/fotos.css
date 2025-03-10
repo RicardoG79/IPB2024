@@ -64,9 +64,11 @@
 
     .carousel-slides {
         flex-direction: row; /* Mantiene la dirección del flex en fila */
+        width: 100%; /* Asegura que el contenedor de las diapositivas ocupa todo el ancho */
     }
 
     .carousel-slides img {
         height: auto; /* Altura automática para mantener la proporción */
+        width: 100%; /* Asegura que las imágenes ocupen todo el ancho del contenedor */
     }
 }
