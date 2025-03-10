@@ -63,7 +63,7 @@
     }
 
     .carousel-slides {
-        flex-direction: column; /* Cambia la dirección del flex a columna */
+        flex-direction: row; /* Mantiene la dirección del flex en fila */
     }
 
     .carousel-slides img {
