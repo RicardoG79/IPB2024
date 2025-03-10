@@ -55,20 +55,4 @@
     background-color: #717171;
 }
 
-/* Media query para dispositivos pequeños */
-@media (max-width: 600px) {
-    .carousel-container {
-        width: 100%; /* Ancho completo del contenedor */
-        height: auto; /* Altura automática para mantener la proporción */
-    }
 
-    .carousel-slides {
-        flex-direction: row; /* Mantiene la dirección del flex en fila */
-        width: 100%; /* Asegura que el contenedor de las diapositivas ocupa todo el ancho */
-    }
-
-    .carousel-slides img {
-        height: auto; /* Altura automática para mantener la proporción */
-        width: 100%; /* Asegura que las imágenes ocupen todo el ancho del contenedor */
-    }
-}
