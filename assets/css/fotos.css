@@ -30,8 +30,6 @@
     width: 100%;
 }
 
-
-
 /* Paginación del carrusel */
 .carousel-dots {
     display: flex;
@@ -57,10 +55,15 @@
     background-color: #717171;
 }
 
+/* Media query para dispositivos pequeños */
 @media (max-width: 600px) {
     .carousel-container {
         width: 100%; /* Ancho completo del contenedor */
         height: auto; /* Altura automática para mantener la proporción */
+    }
+
+    .carousel-slides {
+        flex-direction: column; /* Cambia la dirección del flex a columna */
     }
 
     .carousel-slides img {
