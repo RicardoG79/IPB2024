@@ -42,7 +42,7 @@
 }
 
 .carousel-dots span {
-    display: inline-block;
+    display: block; /* El original es inline-block */
     width: 10px;
     height: 10px;
     margin: 5px;
