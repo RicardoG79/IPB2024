@@ -3,7 +3,7 @@ let header1= `
 <nav>
             <img src="../assets/img/logo1.png" alt="Logo del Curso" class="logo">
             <div class="infraestructura">
-                <h4>"A la luz del Evangelio, transformaremos la cultura."</h4>
+                <h4>"A la luz del Evangelio, transformando la cultura."</h4>
             </div>
             
 </nav>
@@ -35,7 +35,7 @@ document.querySelector("footer").innerHTML=footer1;
 let home= `
 <section class="home">
             <a href="../index.html">
-            <img src="../assets/img/hogar II.png" alt="">
+            <img src="../assets/img/hogarIII.png" alt="">
 
 `
 document.querySelector(".home").innerHTML=home;
