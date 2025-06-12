@@ -26,7 +26,7 @@ let footer1=`
             </div>
         </div>
         <p>Ciclo lectivo 2025 <br> 
-            Instituto Privado Superior Pbro. Juan V. Brizuela <br> 📞 3544-420383 ▪️ 📧institutobrizuela@gmail.com</p>
+            Instituto Privado Superior Pbro. Juan V. Brizuela <br> www.institutobrizuela.edu.ar</p>
 
         `
 //selecciono el footer y le paso la variable de footer1
@@ -39,3 +39,22 @@ let home= `
 
 `
 document.querySelector(".home").innerHTML=home;
+
+//codigo para el botón
+function toggleDropdown() {
+    var dropdown = document.getElementById("dropdownMenu");
+    if (dropdown.classList.contains("show")) {
+        dropdown.classList.remove("show");
+    } else {
+        dropdown.classList.add("show");
+    }
+}
+
+// Cerrar el dropdown si se hace clic fuera de él
+document.addEventListener("click", function(event) {
+    var dropdown = document.querySelector(".dropdown-content");
+    var button = document.querySelector(".dropdown-button");
+    if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.classList.remove("show");
+    }
+});
