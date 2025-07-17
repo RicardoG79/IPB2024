@@ -26,7 +26,8 @@ let footer1=`
             </div>
         </div>
         <p>Ciclo lectivo 2025 <br> 
-            Instituto Privado Superior Pbro. Juan V. Brizuela <br> www.institutobrizuela.edu.ar</p>
+            Instituto Privado Superior Pbro. Juan V. Brizuela <br> <a href = "https://institutobrizuela.edu.ar/portal/" target="_blank"> www.institutobrizuela.edu.ar </a>  </p> <br>
+            <p class="par1">Desarrollado por +Grafito</p>
 
         `
 //selecciono el footer y le paso la variable de footer1

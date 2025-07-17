@@ -7,10 +7,13 @@
     <title>IPB Docentes Nivel Secundario</title>
     <link rel="shortcut icon" href="./assets/img/fav2.ico">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/index_card.css">
     <link rel="stylesheet" href="./assets/css/aviso.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=architects-daughter:400" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script> <!-- codigo para animación del perro -->
       
 
@@ -24,10 +27,7 @@
 
         <nav class="nav-buttons">
 
-            <button class="boton"> <a href="./assets/pdf/LA IDENTIDAD INSTITUCIONAL.pdf" target="_blank">Identidad y Misión</a></button>
- 
-            <button class="boton"> <a href="https://drive.google.com/drive/folders/19l55o7zfWMnOShZokalE_zjzfqPAIQev?usp=drive_link"  target="_blank" class="special-card">Acuerdos y Protocolos</a></button>
-            <!-- <button class="boton"> <a href="https://drive.google.com/drive/folders/1ZZRHtHN3sTA-5fv9azJ88wljzeNj9rZ_?usp=sharing" target="_blank" class="special-card">Protocolos</a></button> -->
+           
 
             <!-- botón desplegable -->
             <div class="dropdown-container">
@@ -39,8 +39,8 @@
         
     </div>
 </div>
-
 <!-- Fin del código de botón desplegable -->
+
             <button class="boton"><a href="https://docs.google.com/document/d/1LEp0VOqy6VHB87P9Fak-CVuepT8NXeeh/edit?usp=sharing&ouid=102487590086373679731&rtpof=true&sd=true" target="_blank" class="special-card">Cronograma anual</a></button>
             <button class="boton"><a href="https://docs.google.com/document/d/1_0DtvJrar39aITc1dp8Jc9oWqL6t_Qsc/edit?usp=sharing&ouid=102487590086373679731&rtpof=true&sd=true" target="_blank" class="special-card">Horario Mosaico</a></button>
             <button class="boton"><a
@@ -48,32 +48,57 @@
                     target="_blank" class="special-card">Mails Institucionales</a></button>
             
         </nav>
-        <section class="functions">
-            <a href="./templates/historia.html" target="_blank"
-                class="function-card " data-id="1">
-                <div class="icon">📁</div>
-                
-                <h2>Nuestra Historia</h2>
-                
-            </a>
-            
-            <a href="https://youtube.com/playlist?list=PLSzwPWODtAEZ9tQ934iL-EXVxVldIHBCe&si=u9UT6pNbLhFPeCMk"
-                target="_blank" class="function-card">
-                <div class="icon">▶️</div>
-                <h2>Sección de videos</h2>
+    
+    <!-- Comienzo de las card. -->
 
-            </a>
-            <a href="https://drive.google.com/drive/u/1/folders/1SVwoYlP1TET-B2y1PgQNVVDOVxfukcf4" class="enlace-construccion function-card" class=" special-card"  data-id="2" target="_blank" >
-                <div class="icon">💞</div>
-                <h2>Actividad Pastoral</h2>
-            </a>
+    <div class="container">
+        <div class="card">
+            <img src="./assets/img/pro1.png" alt="Imagen de ejemplo" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Nuestra historia institucional</h2>
+                <p class="card-description">
+                    La historia brizuelina, un tiempo bendecido.   </p>
+                <a href="./templates/historia.html" class="card-button">Ingresar</a>
+            </div>
             
-            </a>
-            <a href="./templates/fotos.html" class="function-card">
-                <div class="icon">📷</div>
-                <h2>Nuestro camino en imágenes</h2>
-            </a>
+    </div>
+    <div class="card">
+            <img src="./assets/img/pro2.png" alt="Imagen de ejemplo" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">La Identidad y la Misión</h2>
+                <p class="card-description">
+                    A la luz del Evangelio, tranformando la cultura.
+                </p>
+                <a href="./assets/pdf/LA IDENTIDAD INSTITUCIONAL.pdf" class="card-button" target="_blank">Ingresar</a>
+            </div>
+    
+            
+        </div>
+        <div class="card">
+            <img src="./assets/img/pro3.png" alt="Imagen de ejemplo" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Acuerdos y Protocolos</h2>
+                <p class="card-description">
+                    Los acuerdos institucionales fortalecen el camino.
+                </p>
+                <a href="https://drive.google.com/drive/folders/19l55o7zfWMnOShZokalE_zjzfqPAIQev?usp=drive_link"  class="card-button special-card" target="_blank" >Ingresar</a>
+            </div>
+        </div>
 
+        <div class="card">
+            <img src="./assets/img/pro4.png" alt="Imagen de ejemplo" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">El camino en imágenes</h2>
+                <p class="card-description">
+                    El quehacer de actividades, en modo imágenes.
+                </p>
+                <a href="./templates/fotos.html" class="card-button">Ingresar</a>
+            </div>
+        
+        </div>
+        
+
+        <section>
             <div id="notification" class="notification">
                 <p class="not"> ⚠️ Debe ingresar con cuenta institucional</p>
             </div>
