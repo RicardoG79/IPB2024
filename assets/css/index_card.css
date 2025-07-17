@@ -80,8 +80,8 @@ main{
         align-items: center;
     }
     .card {
-        max-width: 60%;
-        max-height: 20%;
+        max-width: 66%;
+        height: 40%;
         margin: 8px;
         padding: 5px;
             }
