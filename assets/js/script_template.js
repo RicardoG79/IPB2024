@@ -25,7 +25,7 @@ let footer1=`
                 </a>
             </div>
         </div>
-        <p>Ciclo lectivo 2025 <br> 
+        <p>Ciclo lectivo 2026 <br> 
             Instituto Privado Superior Pbro. Juan V. Brizuela <br> <a href = "https://institutobrizuela.edu.ar/portal/" target="_blank"> www.institutobrizuela.edu.ar </a>  </p> <br>
             <p class="par1">Desarrollado por +Grafito</p>
 
