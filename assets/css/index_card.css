@@ -4,7 +4,7 @@ main{
 /* Contenedor centrado */
 .container {
     max-width: 100%;
-    padding: 30px;
+    padding: 10px;
     margin: 0px 0px 0px 0px; 
     
     display:flex;
@@ -19,7 +19,7 @@ main{
     overflow: hidden;
     width: 100%;
     min-height: 350px;
-    margin: 20px 20px 20px 20px;
+    margin: 9px 9px 9px 9px;
     transition: transform 0.3s ease;
     /* display: flex; */
     
